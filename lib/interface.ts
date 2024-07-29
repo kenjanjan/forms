@@ -1,5 +1,6 @@
 export interface QuestionCardProps {
-    question: string;
+    question: any;
     variant: "checkbox" | "short-answer" | undefined;
     required?: boolean;
+    data?: any;
 }
